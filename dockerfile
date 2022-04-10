@@ -1,4 +1,4 @@
-FROM nginx:1.19-alpine
+FROM nginx
 
 ADD index.html /usr/share/nginx/html
 
