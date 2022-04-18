@@ -1,0 +1,16 @@
+---
+version: "2.1"
+
+services:
+
+  nginx:
+    container_name: DOCKERCICD
+    image: julio0619/dockerci-cd:latest
+
+    ports:
+      - 80:80
+      - 443:433
+
+    restart: always
+
+
